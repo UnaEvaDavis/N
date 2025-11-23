@@ -6,7 +6,7 @@ const BLOG = {
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
     '02ab3b8678004aa69e9e415905ef32a5,en:7c1d570661754c8fbc568e00a01fd70e',
-  THEME: process.env.NEXT_PUBLIC_THEME || 'simple', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
+  THEME: process.env.NEXT_PUBLIC_THEME || 'heo', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // e.g if leave this empty, current year will be used.
 
@@ -17,7 +17,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '风铃', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://n.sb8.top', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '风铃', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
@@ -65,7 +65,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，我是一个程序员, Hi，我是一个打工人,Hi，我是一个干饭人,欢迎来到我的博客🎉',
+    '我是一个干饭人,欢迎来到我的博客🎉',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
